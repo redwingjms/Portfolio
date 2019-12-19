@@ -1,28 +1,6 @@
 @charset "utf-8";
-/*------------------------------------------------------------------
-[Responsive Stylesheet]
-
-Project:    Rhythm
-Version:    2.9.4
-Last change:   19.01.2017
-Primary use:    MultiPurpose Template  
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Small desktop
-2. Tablet landskape
-3. Tablet Portrait
-4. Phone
-5. Small Phone
-6. Max Height 768
--------------------------------------------------------------------*/
-
-
 /* ==============================
-   Small desktop
+   Petit écran PC
    ============================== */
 
 @media only screen and (max-width: 1366px) {
@@ -95,7 +73,7 @@ Primary use:    MultiPurpose Template
 }
 
 /* ==============================
-   Tablet landskape
+   Tablette mode paysage
    ============================== */
 
 @media only screen and (max-width: 1024px) {
@@ -244,7 +222,7 @@ Primary use:    MultiPurpose Template
   
   
 /* ==============================
-   Tablet Portrait
+   Tablette mode portrait
    ============================== */
   
 @media only screen and (max-width: 768px) {
@@ -576,7 +554,7 @@ Primary use:    MultiPurpose Template
 
 
 /* ==============================
-   Phone
+   Téléphone (Standard)
    ============================== */
   
 @media only screen and (max-width: 480px) {
@@ -811,7 +789,7 @@ Primary use:    MultiPurpose Template
 
 
 /* ==============================
-   Small Phone
+   Petit Téléphone
    ============================== */
   
 @media only screen and (max-width: 319px) {
@@ -823,7 +801,7 @@ Primary use:    MultiPurpose Template
 
 
 /* ==============================
-   Max Height 768
+   Hauteur maximum autorisée 768
    ============================== */
 
 @media only screen and (max-height: 767px) {
@@ -837,7 +815,7 @@ Primary use:    MultiPurpose Template
 
 
 /* ==============================
-   IOS Background Fix
+   Correction arrière-plan Apple IOS
    ============================== */
   
 .mobile .page-section, .mobile .home-section, .mobile .small-section{
