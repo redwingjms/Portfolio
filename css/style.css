@@ -20,7 +20,7 @@ font-family: Avenir, sans-serif;
 }
 .stick-fixed{
     position: fixed !important;
-    top: 50;
+    top: 0;
     left: 0;
 }
 .round{
@@ -156,7 +156,6 @@ img:not([draggable]), embed, object, video{
     border-style: solid;   
     border-color: #fff;   
     border-radius: 20px; 
-}
 }
 /* ==============================
    Footer
