@@ -1,7 +1,8 @@
 /* ==============================
    Common styles
    ============================== */
-  
+
+font-family: Avenir, sans-serif;
 .align-center{ text-align:center !important; }
 .align-left{ text-align:left !important;}
 .align-right{ text-align:right !important; }
@@ -19,7 +20,7 @@
 }
 .stick-fixed{
     position: fixed !important;
-    top: 0;
+    top: 50;
     left: 0;
 }
 .round{
@@ -142,6 +143,24 @@ button:focus.focus-visible{
 img:not([draggable]), embed, object, video{
     max-width: 100%;
     height: auto;
+}
+.scroll#projets .projet {   
+    display: inline-block;     
+    width: 250px;   
+    height: 250px;   
+    margin: 1.5% 2% 1.5% 2%;   
+    overflow: hidden;     
+    background-size: cover;     
+    background-position: center;   
+    background-repeat: no-repeat;   
+    border-style: solid;   
+    border-color: #fff;   
+    border-radius: 20px; 
+
+.title .title {
+    text-align: center;
+    font-size: 12px; 
+}
 }
 /* ==============================
    Footer
