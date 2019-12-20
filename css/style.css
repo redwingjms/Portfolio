@@ -156,10 +156,6 @@ img:not([draggable]), embed, object, video{
     border-style: solid;   
     border-color: #fff;   
     border-radius: 20px; 
-
-.title .title {
-    text-align: center;
-    font-size: 12px; 
 }
 }
 /* ==============================
